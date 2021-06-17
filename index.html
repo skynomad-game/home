@@ -5,23 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sky Nomad</title>
+
     <style>
+        @font-face{
+            font-family: computer-says-no;
+            src: url(./fonts/computer-says-no.ttf)
+        }
+
+
         html{
             background-color: aqua;
+            font-family: computer-says-no;
+            background-image: url(./img/mapa-sky-nomad.png);
         }
-    </style>
 
+        body{
+            width: 80%;
+            margin: auto;
+        }
+
+
+        div.download-link{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            margin: auto;
+            background-color: lightpink;
+            border-radius: 30px;
+            padding: 50px;
+        }
+
+        div.download-link p{
+            font-size: 5rem;
+            text-align: center;
+        }
+
+        div.download-link p:last-of-type{
+            font-size: 2rem;
+        }
+
+        div.download-link img{
+            width: 500;
+        }
+
+
+
+
+    </style>
 </head>
 <body>
+    <h1>This is Sky Nomad</h1>
 
+    <p>Es un juego educativo</p>
 
-    <h1>Sky Nomad</h1>
-    <h2>Bla bla bla</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id fugit ad neque, velit incidunt, ducimus est reiciendis totam eveniet hic illum, adipisci amet modi quis molestias distinctio. Laboriosam laudantium, aliquam temporibus aspernatur atque voluptates quos obcaecati, deserunt harum mollitia perspiciatis porro blanditiis illo nulla optio magni provident vitae quidem possimus?</p>
     <h3>Bla Bla Bla</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vel quos nihil sint tempore consequuntur nesciunt, quas unde quasi vitae, cupiditate recusandae deserunt ea officiis inventore eos odit doloribus iste maiores sit. Error, expedita! Placeat, autem vero provident velit, non dolor, aut unde labore beatae porro hic! Numquam, soluta ratione.</p>
     <img src="./img/espacio.jpg" alt="">
-    
-    
+
+
+
+    <div class="download-link" >
+    <p>Click on the Sky Nomad logo to download the Apk:</p>
+
+        <a href="./apk/Sky Nomad 0.2.3.7.v.apk" download>
+          <img src="/img/logo.png" alt="Sky Nomad" >
+        </a>
+        <p><b>Note:</b> The download attribute is not supported in Edge version 12, IE, Safari 10 (and earlier), or Opera version 12 (and earlier).</p>
+    </div>
+        
+        
+     
+
 </body>
 </html>
